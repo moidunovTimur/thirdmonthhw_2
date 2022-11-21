@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <fragment
+        android:id="@+id/screen"
+        android:name="com.example.thirdmounthhome_3.FirstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="730dp"
+        tools:layout="@layout/fragment_first" />
+
+    <fragment
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.thirdmounthhome_3.SeconFragment"
+        tools:layout="@layout/fragment_secon"/>
+
+    <FrameLayout
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="335dp"/>
+
+    <FrameLayout
+        android:id="@+id/drawing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="335dp"/>
+
+
+    <Button
+        android:id="@+id/gallery_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="add photo"
+        android:textSize="50sp"/>
+
+    <Button
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:text="text"
+        android:textSize="15sp"
+        android:layout_marginStart="200dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+
+
+
+</LinearLayout>
