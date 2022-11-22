@@ -12,8 +12,6 @@ import android.widget.TextView;
 
 public class FirstFragment extends Fragment {
 
-    TextView textView;
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
